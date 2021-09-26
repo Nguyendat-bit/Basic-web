@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100;
+    background-image: url(image/Book-Glasses-Coffee-Unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    
+}
+.container .cart{
+    width: 80px;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.container .cart img{
+    width: 45px;
+    height: 45px;
+}
+nav{
+    flex:1;
+    padding-left: 60px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0px 20px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+.hotsale h1{
+    font-size:60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:rgb(111, 84, 15)
+}
+.hotsale p{
+    font-size: 25px;
+    color: rgb(0, 0, 0)
+}
+.hotsale{
+    margin-top: 12%;
+    margin-left:18%
+}
+.hotsale .click{
+    display: inline-block;
+    background: rgb(194, 127, 101);
+    font-size: 20px;
+    padding: 20px;
+    border-radius:5px ;
+    color: black;
+    text-decoration:  none;
+    font-family: sans-serif;
+    box-shadow: navajowhite;
+}
+.hotsale .more{
+    text-decoration: none;
+    color: rgb(140, 77, 10);
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 25px;
+    border:2px;
+    border-radius: 30px;
+    border-color: black;
+    cursor: pointer;
+}
+.sanpham{
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+}
